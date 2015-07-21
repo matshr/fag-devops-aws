@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: null
+    environment: fag-devops-aws-dev
 global:
   application_name: fag-devops-aws
   default_ec2_keyname: aws-eb
@@ -8,3 +8,7 @@ global:
   default_region: eu-central-1
   profile: eb-cli
   sc: git
+option_settings:
+- namespace: aws:elasticbeanstalk:command
+  option_name: Timeout
+  value: 900
