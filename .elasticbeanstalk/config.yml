@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: null
+global:
+  application_name: fag-devops-aws
+  default_ec2_keyname: aws-eb
+  default_platform: GlassFish 4.1 Java 8 (Preconfigured - Docker)
+  default_region: eu-central-1
+  profile: eb-cli
+  sc: git
